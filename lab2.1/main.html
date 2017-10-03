@@ -1,0 +1,24 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Лабораторная 2.1</title>
+		<script type="text/javascript">
+			function swap()
+			{
+				var doc=document
+				var i=doc.jpg1.src
+				doc.jpg1.src=doc.jpg2.src
+				doc.jpg2.src=i
+			}
+		</script>
+	</head>
+	<body>
+		<img src="1.jpg" name="jpg1">
+		<img src="2.jpg" name="jpg2">
+		<FORM name="form1">
+			<input type="button" value="Обменять" onClick="swap()">
+		</FORM>
+	</body>
+</html>
